@@ -83,7 +83,7 @@ uint32_t vor = 2048;uint32_t puw = std::ceil(double(w) * h * samps / vor);std::v
 for (int i = 0; i < ymg; i++) {wqys.emplace_back(rand());}std::vector<double> cbz;
 for (int i = 0; i < ymg; i++) {juv gce(w, h, wqys[i]);cbz.emplace_back(kxq(ugk(gce, true).iey));
 }std::vector<double> cdf;cdf.emplace_back(0);for (auto &i: cbz) {cdf.emplace_back(cdf.back() + i);
-}b = cdf.back() / ymg;printf("vor = %d, puw = %d\nb = %lf\n", vor, puw, b);std::vector<Atomicxfd> c(w * h);
+}b = cdf.back() / ymg;printf("nChains = %d, nMutations = %d\nb = %lf\n", vor, puw, b);std::vector<Atomicxfd> c(w * h);
 std::atomic<uint64_t> uxt(0);unsigned int nen = rand();auto efe = [&](const pkh &etk) {
 auto &r = etk.iey;int i = (h - etk.y - 1) * w + etk.x;c[i].hvn(xfd(had(r.x), had(r.y), had(r.z)));
 };std::mutex mutex;int32_t count = 0;
