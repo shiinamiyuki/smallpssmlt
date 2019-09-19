@@ -8,6 +8,7 @@
 #include <stdio.h>  //        Remove "-fopenmp" for g++ version < 4.2
 #include <atomic>
 #include <mutex>
+
 #include <memory.h>
 
 float random(unsigned int *rng) {
@@ -494,4 +495,5 @@ int main(int argc, char *argv[]) {
     for (int i = 0; i < w * h; i++)
         fprintf(f, "%d %d %d ", toInt(c[i].x), toInt(c[i].y), toInt(c[i].z));
 }
+
 
